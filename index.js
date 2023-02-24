@@ -117,7 +117,7 @@
             isPlaying=false;
            }
            document.getElementById("start").disabled=false;
-           timer=false;
+           
            hourCount=0;
            minuteCount=0;
            secondCount=0
