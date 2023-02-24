@@ -128,6 +128,8 @@
             
             timer=true;
             isPlaying=true;
+
+            //to disable start button once it is clicked( for proper functionality)
             document.getElementById("start").disabled=true
             start();
         }
@@ -141,6 +143,7 @@
             
              isPlaying=false;
             }
+            
             document.getElementById("start").disabled=false;
             timer=false;
         }
