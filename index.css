@@ -1,0 +1,75 @@
+:root{
+    --white: white;
+
+}
+
+div.display-inline > div   {
+
+    display: inline-block;
+   
+
+}
+
+.timedisplay-lg{
+
+    font-size: 20vh;
+}
+
+#pause
+{
+    background-color: #ffc23d;
+    color: var(--white);
+}
+
+#reset
+{
+    background-color: red;
+    color: var(--white);
+}
+
+.color-theme{
+    /* background-color: rgb(133, 130, 130) ; */
+    background-image: linear-gradient(to bottom right, rgb(169, 121, 181), rgb(134, 113, 142));
+    box-shadow: 20px 10px 15px 30px rgb(122, 95, 135);
+    opacity: 0.8;
+}
+
+#start
+{
+    background-color: green;
+    color: var(--white);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover{
+
+    opacity: 0.5;
+}
+
+.gradiend-effect {
+    background-image: linear-gradient(to right, rgb(94, 66, 105), rgb(179, 153, 185)  ,rgb(94, 66, 105));
+}
+
+
+@media only screen and (max-width: 483px) {
+    .timedisplay-lg{
+
+        font-size: 10vh;
+    }
+}
+
+@media only screen and (max-width: 264px) {
+    .timedisplay-lg{
+
+        font-size: 5vh;
+    }
+}
+
+
+@media only screen and (max-width: 152px) {
+    .timedisplay-lg{
+
+        font-size: 4vh;
+    }
+}
